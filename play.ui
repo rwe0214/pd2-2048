@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>2048</string>
   </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
   <widget class="QLabel" name="label_00">
    <property name="geometry">
     <rect>
@@ -375,7 +378,7 @@
    <property name="geometry">
     <rect>
      <x>280</x>
-     <y>60</y>
+     <y>80</y>
      <width>101</width>
      <height>41</height>
     </rect>
@@ -402,7 +405,7 @@
    <property name="geometry">
     <rect>
      <x>280</x>
-     <y>20</y>
+     <y>40</y>
      <width>101</width>
      <height>31</height>
     </rect>
@@ -422,6 +425,46 @@
     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
    </property>
   </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="2048pic.qrc">:/new/prefix1/images.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>label_00</zorder>
+  <zorder>label_30</zorder>
+  <zorder>label_20</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_01</zorder>
+  <zorder>label_21</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_31</zorder>
+  <zorder>label_02</zorder>
+  <zorder>label_22</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_32</zorder>
+  <zorder>label_03</zorder>
+  <zorder>label_23</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_33</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
  </widget>
  <resources>
   <include location="2048pic.qrc"/>

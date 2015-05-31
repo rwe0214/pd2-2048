@@ -20,11 +20,14 @@
   <property name="windowTitle">
    <string>2048</string>
   </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
   <widget class="QLabel" name="GameOver">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>30</y>
+     <y>10</y>
      <width>361</width>
      <height>151</height>
     </rect>
@@ -59,7 +62,51 @@
     <string>Restart</string>
    </property>
   </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>110</y>
+     <width>221</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="2048pic.qrc">:/new/prefix1/main.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="2048pic.qrc">:/new/prefix1/white.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>label</zorder>
+  <zorder>GameOver</zorder>
+  <zorder>pushButton</zorder>
  </widget>
- <resources/>
+ <resources>
+  <include location="2048pic.qrc"/>
+ </resources>
  <connections/>
 </ui>

@@ -37,14 +37,17 @@
   <property name="animated">
    <bool>true</bool>
   </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>100</x>
       <y>40</y>
-      <width>231</width>
-      <height>101</height>
+      <width>221</width>
+      <height>91</height>
      </rect>
     </property>
     <property name="maximumSize">
@@ -56,7 +59,7 @@
     <property name="font">
      <font>
       <family>Agency FB</family>
-      <pointsize>82</pointsize>
+      <pointsize>73</pointsize>
       <weight>75</weight>
       <bold>true</bold>
       <kerning>true</kerning>
@@ -75,10 +78,10 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>180</y>
-      <width>171</width>
-      <height>51</height>
+      <x>140</x>
+      <y>190</y>
+      <width>141</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -96,10 +99,59 @@
      <string>press to start</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>221</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="2048pic.qrc">:/new/prefix1/162-770x472.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>401</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>1</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="2048pic.qrc">:/new/prefix1/white.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_3</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+   <zorder>pushButton</zorder>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="2048pic.qrc"/>
+ </resources>
  <connections/>
 </ui>

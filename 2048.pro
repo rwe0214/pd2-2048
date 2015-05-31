@@ -30,3 +30,5 @@ FORMS    += mainwindow.ui \
 
 RESOURCES += \
     2048pic.qrc
+
+

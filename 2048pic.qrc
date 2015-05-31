@@ -13,5 +13,11 @@
         <file>1024.jpg</file>
         <file>2048.jpg</file>
         <file>4096.jpg</file>
+        <file>162-770x472.jpg</file>
+        <file>cherng.jpg</file>
+        <file>images.jpg</file>
+        <file>white.jpg</file>
+        <file>main.jpg</file>
+        <file>main1.jpg</file>
     </qresource>
 </RCC>
